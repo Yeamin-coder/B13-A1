@@ -124,6 +124,10 @@ nav .menu a{
      padding-left: 120px;
   padding-right: 120px;
   margin-bottom: 60px;
+ 
+}
+.banner-content{
+     text-align: center;
 }
 .early-content{
     width: 290px;
@@ -159,8 +163,8 @@ p{
       margin: 0 auto ;
       font-size: 18px;
       font-weight: 400;
-      line-height: 24px;
-      color: #FFFFFF;
+      line-height: 30px;
+      color: #ffffffd0;
       margin-bottom: 32px;
       
 }
@@ -180,16 +184,22 @@ p{
    align-items: center;
    filter: drop-shadow(h-offset v-offset blur-radius color);
 }
+.bookmark-container{
+     text-align: center;
+
+}
 #bookmark .bookmark-container h2{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
+   
 
 }
 .para{
     font-size: 16px;
     font-weight: 400;
     color: #627382;
+    
 }
 #bookmark .card-container{
     display: flex;
@@ -213,7 +223,7 @@ p{
     box-shadow:  -10px  10px 8px   #8582821f;
     width: 322px;
     height: 300px;
-    /* box-sizing: border-box; */
+    text-align: center;
 }
 .card-row a{
     display: flex;
